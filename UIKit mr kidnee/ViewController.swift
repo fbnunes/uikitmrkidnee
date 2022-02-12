@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     let path = UIBezierPath()
     @IBOutlet weak var backgroundRect: GridView!
     @IBOutlet weak var saudationMrKidnee: UITextField!
+    @IBOutlet weak var DYKSentences: UIView!
+    @IBOutlet weak var cupsOfWaterView: UIView!
     
 
     override func viewDidLoad() {
@@ -21,9 +23,9 @@ class ViewController: UIViewController {
 //        let gridView = GridView(frame: view.frame)
 //        backgroundRect.addSubview(gridView)
         let yourView = UIView(frame: CGRect(x:0, y:0, width: 50, height: 50))
-        yourView.backgroundColor = .red
+        yourView.backgroundColor = .white
         yourView.layer.cornerRadius = 10
-        view.addSubview(yourView)
+        DYKSentences.addSubview(yourView)
         
     }
     

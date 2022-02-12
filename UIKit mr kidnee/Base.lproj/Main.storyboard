@@ -31,7 +31,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="hxX-QI-vq4">
                                                 <rect key="frame" x="0.0" y="0.0" width="354" height="344"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0U-zs-AvN">
+                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g0U-zs-AvN" userLabel="DYKSentencesView">
                                                         <rect key="frame" x="0.0" y="0.0" width="354" height="164"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="text1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ReY-75-lJy">
@@ -114,7 +114,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="DYKSentences" destination="g0U-zs-AvN" id="6h3-oF-6rZ"/>
                         <outlet property="backgroundRect" destination="W8J-0P-rrM" id="OA4-b1-IkD"/>
+                        <outlet property="cupsOfWaterView" destination="c1j-8f-F7r" id="t7V-99-WcE"/>
                         <outlet property="saudationMrKidnee" destination="goZ-wi-zmN" id="UXC-Mx-InF"/>
                     </connections>
                 </viewController>
