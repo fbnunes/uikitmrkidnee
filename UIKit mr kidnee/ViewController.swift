@@ -7,13 +7,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    
+    let path = UIBezierPath()
+    @IBOutlet weak var backgroundRect: GridView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//        let gridView = GridView(frame: view.frame)
+//        backgroundRect.addSubview(gridView)
+        
     }
+    
 
-
+    
 }
 
