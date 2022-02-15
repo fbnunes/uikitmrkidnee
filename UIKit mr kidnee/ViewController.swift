@@ -16,12 +16,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var statusSentence: UITextField!
     @IBOutlet weak var DYKSentences: UIView!
     @IBOutlet weak var DYKText: UITextField!
+    
     @IBOutlet weak var cupsOfWaterView: UIView!
     @IBOutlet weak var cupsOfWaterText: UITextField!
+    @IBOutlet weak var cupsOfWaterLess: UIButton!
+    @IBOutlet weak var cupsOfWaterPlusButton: UIButton!
     
 
     override func viewDidLoad() {
-
         super.viewDidLoad()
         
         // Adding RoundedRectangles for DYK Sentences and cupsOfWater controls
@@ -29,7 +31,9 @@ class ViewController: UIViewController {
         yourView.layer.cornerRadius = 80
         yourView.layer.borderWidth = 4
         yourView.layer.borderColor = UIColor.white.cgColor
-        DYKText.text = "dyk sentences"
+        
+        // TODO: how to "limit" the text box
+        DYKText.text = "dyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentences"
         DYKSentences.addSubview(yourView)
         
         
@@ -37,7 +41,7 @@ class ViewController: UIViewController {
         yourView2.layer.cornerRadius = 80
         yourView2.layer.borderWidth = 4
         yourView2.layer.borderColor = UIColor.white.cgColor
-        cupsOfWaterText.text = "+  cups of water  -"
+        cupsOfWaterText.text = "cups of water"
         cupsOfWaterView.addSubview(yourView2)
         
         saudationMrKidnee.font = UIFont(name: "ArialRoundedMTBold", size: 30)
@@ -47,7 +51,11 @@ class ViewController: UIViewController {
         
     }
     
-
+    // TODO: button not pressing :(
+    @IBAction func lessButtonPressed(_ sender: Any) {
+        print("less button pressed")
+    }
+    
     
 }
 
