@@ -11,51 +11,30 @@ import UIKit
 class ViewController: UIViewController {
     
     let path = UIBezierPath()
-    @IBOutlet weak var backgroundRect: GridView!
-    @IBOutlet weak var saudationMrKidnee: UITextField!
-    @IBOutlet weak var statusSentence: UITextField!
-    @IBOutlet weak var DYKSentences: UIView!
-    @IBOutlet weak var DYKText: UITextField!
     
-    @IBOutlet weak var cupsOfWaterView: UIView!
-    @IBOutlet weak var cupsOfWaterText: UITextField!
-    @IBOutlet weak var cupsOfWaterLess: UIButton!
-    @IBOutlet weak var cupsOfWaterPlusButton: UIButton!
+    @IBOutlet weak var saudationText: UITextField!
+    @IBOutlet weak var statusSentenceText: UITextField!
+    
+    
+    @IBOutlet weak var DYKTitleText: UILabel!
+    @IBOutlet weak var DYKText: UITextView!
+    
+    @IBOutlet weak var minusButton: UIButton!
+    @IBOutlet weak var plusButton: UIButton!
+    
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        // Adding RoundedRectangles for DYK Sentences and cupsOfWater controls
-        let yourView = UIView(frame: CGRect(x: -DYKSentences.frame.midX, y: 0, width: DYKSentences.frame.width, height: DYKSentences.frame.height))
-        yourView.layer.cornerRadius = 80
-        yourView.layer.borderWidth = 4
-        yourView.layer.borderColor = UIColor.white.cgColor
-        
-        // TODO: how to "limit" the text box
-        DYKText.text = "dyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentencesdyk sentences"
-        DYKSentences.addSubview(yourView)
-        
-        
-        let yourView2 = UIView(frame: CGRect(x: -cupsOfWaterView.frame.midX, y: 0, width: cupsOfWaterView.frame.width, height: cupsOfWaterView.frame.height))
-        yourView2.layer.cornerRadius = 80
-        yourView2.layer.borderWidth = 4
-        yourView2.layer.borderColor = UIColor.white.cgColor
-        cupsOfWaterText.text = "cups of water"
-        cupsOfWaterView.addSubview(yourView2)
-        
-        saudationMrKidnee.font = UIFont(name: "ArialRoundedMTBold", size: 30)
-        statusSentence.font = UIFont(name: "ArialRoundedMTBold", size: 20)
-        DYKText.font = UIFont(name: "ArialRoundedMTBold", size: 20)
-        cupsOfWaterText.font = UIFont(name: "ArialRoundedMTBold", size: 20)
-        
+         
+    }
+
+    @IBAction func pressMinusButton(_ sender: Any) {
+        print("press less button")
     }
     
-    // TODO: button not pressing :(
-    @IBAction func lessButtonPressed(_ sender: Any) {
-        print("less button pressed")
+    @IBAction func pressPlusButton(_ sender: Any) {
+        print("press more button")
     }
-    
-    
 }
 
