@@ -38,21 +38,23 @@ class ViewController: UIViewController {
         cupsOfWaterText.font = UIFont(name: "ArialRoundedMTBold", size: 20)
         
         // Adding RoundedRectangles for DYK Sentences and cupsOfWater controls
-        let roundedRectDYK = UIView(frame: CGRect(x: 0, y: -10, width: DYKView.frame.width*1.03, height: DYKView.frame.height*1.2))
+        let roundedRectDYK = UIView(frame: CGRect(x: 0, y: 0, width: DYKView.frame.width*1.03, height: DYKView.frame.height*1.2))
         roundedRectDYK.layer.cornerRadius = 80
         roundedRectDYK.layer.borderWidth = 4
         roundedRectDYK.layer.borderColor = UIColor.white.cgColor
         
         DYKView.addSubview(roundedRectDYK)
         
-        let roundedRectCupsOfWater = UIView(frame: CGRect(x: 0, y: -80, width: DYKView.frame.width*1.03, height: DYKView.frame.height*1.2))
+        let roundedRectCupsOfWater = UIView(frame: CGRect(x: 0, y: 0, width: DYKView.frame.width*1.03, height: DYKView.frame.height*1.2))
         roundedRectCupsOfWater.layer.cornerRadius = 80
         roundedRectCupsOfWater.layer.borderWidth = 4
         roundedRectCupsOfWater.layer.borderColor = UIColor.white.cgColor
         
         // TODO: with this solution, I can't click on the button
-//        cupsOfWaterView.addSubview(roundedRectCupsOfWater)
-//        self.view.sendSubviewToBack(roundedRectCupsOfWater)
+        cupsOfWaterView.addSubview(roundedRectCupsOfWater)
+        cupsOfWaterView.sendSubviewToBack(roundedRectCupsOfWater)
+        
+//        roundedRectCupsOfWater.sendSubviewToBack(cupsOfWaterView)
         
     }
 
