@@ -14,6 +14,9 @@
 		12161C1D27B496C90043A8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12161C1C27B496C90043A8E5 /* Assets.xcassets */; };
 		12161C2027B496C90043A8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12161C1E27B496C90043A8E5 /* LaunchScreen.storyboard */; };
 		12161C2827B49AD50043A8E5 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12161C2727B49AD50043A8E5 /* GridView.swift */; };
+		F2117E7227BF169B007D599B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2117E7127BF169B007D599B /* String+Extension.swift */; };
+		F2117E7427BF16D6007D599B /* DateQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2117E7327BF16D6007D599B /* DateQueue.swift */; };
+		F2117E7627BF171B007D599B /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2117E7527BF171B007D599B /* Font+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		12161C1F27B496C90043A8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12161C2127B496C90043A8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12161C2727B49AD50043A8E5 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F2117E7127BF169B007D599B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		F2117E7327BF16D6007D599B /* DateQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateQueue.swift; sourceTree = "<group>"; };
+		F2117E7527BF171B007D599B /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				12161C1527B496C70043A8E5 /* SceneDelegate.swift */,
 				12161C1727B496C70043A8E5 /* ViewController.swift */,
 				12161C1927B496C70043A8E5 /* Main.storyboard */,
+				F2117E7127BF169B007D599B /* String+Extension.swift */,
+				F2117E7327BF16D6007D599B /* DateQueue.swift */,
+				F2117E7527BF171B007D599B /* Font+Extension.swift */,
 				12161C1C27B496C90043A8E5 /* Assets.xcassets */,
 				12161C1E27B496C90043A8E5 /* LaunchScreen.storyboard */,
 				12161C2127B496C90043A8E5 /* Info.plist */,
@@ -142,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				12161C1827B496C70043A8E5 /* ViewController.swift in Sources */,
+				F2117E7427BF16D6007D599B /* DateQueue.swift in Sources */,
 				12161C1427B496C70043A8E5 /* AppDelegate.swift in Sources */,
 				12161C2827B49AD50043A8E5 /* GridView.swift in Sources */,
+				F2117E7227BF169B007D599B /* String+Extension.swift in Sources */,
+				F2117E7627BF171B007D599B /* Font+Extension.swift in Sources */,
 				12161C1627B496C70043A8E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
