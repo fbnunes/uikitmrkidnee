@@ -46,22 +46,22 @@
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="NFT-Vs-cL4">
-                                        <rect key="frame" x="40" y="458" width="334" height="288"/>
+                                        <rect key="frame" x="70" y="458" width="274" height="288"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="f7l-sm-oVr" userLabel="Stack View / DYK">
-                                                <rect key="frame" x="0.0" y="0.0" width="334" height="154"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="274" height="154"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="did you know?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltu-sq-ugv">
-                                                        <rect key="frame" x="0.0" y="0.0" width="334" height="24"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="274" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ror-a8-bqd">
-                                                        <rect key="frame" x="0.0" y="29" width="334" height="125"/>
+                                                        <rect key="frame" x="0.0" y="29" width="274" height="125"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupridatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </string>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -69,7 +69,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="at9-ZF-4lk" userLabel="Stack View / cupsOfWater">
-                                                <rect key="frame" x="0.0" y="156" width="334" height="132"/>
+                                                <rect key="frame" x="0.0" y="156" width="274" height="132"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ftd-jM-yxg">
                                                         <rect key="frame" x="0.0" y="50.5" width="45" height="31"/>
@@ -80,13 +80,13 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cups of water" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGI-PE-F7H">
-                                                        <rect key="frame" x="107.5" y="54" width="119" height="24"/>
+                                                        <rect key="frame" x="77.5" y="54" width="119" height="24"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRl-Wm-mrZ">
-                                                        <rect key="frame" x="289" y="50.5" width="45" height="31"/>
+                                                        <rect key="frame" x="229" y="50.5" width="45" height="31"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" image="circle" catalog="system" title=""/>
                                                         <connections>
@@ -106,11 +106,11 @@
                                     <constraint firstItem="0Ra-lx-eRO" firstAttribute="top" secondItem="W8J-0P-rrM" secondAttribute="topMargin" constant="30" id="K7m-uI-WM3"/>
                                     <constraint firstItem="NFT-Vs-cL4" firstAttribute="centerX" secondItem="W8J-0P-rrM" secondAttribute="centerX" id="L4a-eO-zKh"/>
                                     <constraint firstAttribute="trailing" secondItem="0Ra-lx-eRO" secondAttribute="trailing" constant="8" id="Y8C-E8-Jgg"/>
-                                    <constraint firstAttribute="trailing" secondItem="NFT-Vs-cL4" secondAttribute="trailing" constant="40" id="dSb-ky-AyY"/>
+                                    <constraint firstAttribute="trailing" secondItem="NFT-Vs-cL4" secondAttribute="trailing" constant="70" id="dSb-ky-AyY"/>
                                     <constraint firstItem="mWf-zj-RJE" firstAttribute="centerX" secondItem="W8J-0P-rrM" secondAttribute="centerX" id="hjq-k9-V3m"/>
                                     <constraint firstAttribute="trailing" secondItem="mWf-zj-RJE" secondAttribute="trailing" constant="15" id="iAT-Wq-Hry"/>
                                     <constraint firstItem="mWf-zj-RJE" firstAttribute="leading" secondItem="W8J-0P-rrM" secondAttribute="leading" constant="15" id="n9n-su-Ian"/>
-                                    <constraint firstItem="NFT-Vs-cL4" firstAttribute="leading" secondItem="W8J-0P-rrM" secondAttribute="leading" constant="40" id="rPA-8v-kbS"/>
+                                    <constraint firstItem="NFT-Vs-cL4" firstAttribute="leading" secondItem="W8J-0P-rrM" secondAttribute="leading" constant="70" id="rPA-8v-kbS"/>
                                     <constraint firstItem="NFT-Vs-cL4" firstAttribute="top" secondItem="mWf-zj-RJE" secondAttribute="bottom" constant="24" id="umT-zc-1dc"/>
                                     <constraint firstAttribute="bottom" secondItem="NFT-Vs-cL4" secondAttribute="bottom" constant="150" id="xCK-k6-GR3"/>
                                 </constraints>
